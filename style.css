@@ -1,0 +1,131 @@
+/* Colors and fonts */
+body {
+    background: linear-gradient(135deg, #F7F9FC, #7EE7EA);
+    color: #143F57;
+    font-family: "Lora", serif;
+    font-size: 16px;
+    font-weight: 300;
+    overflow-x: hidden;
+
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    color: #143F57;
+    letter-spacing: 10px;
+    font-size: 32px;
+    font-weight: 900;
+
+}
+
+h2 {
+    color: #143F57;
+    font-weight: 500;
+    font-size: 20px;
+    text-shadow: 0 0 10px #0187A0, 0 0 15px #0187A0, 0 0 20px #0187A0;
+
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #0187A0;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+
+}
+
+a:hover {
+    color: #143F57;
+}
+
+/* Custom design with class */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+    background-color: white;
+    padding: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 30px 0px;
+    text-align: center;
+    transition: transform 0.3s;
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+.card-white:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    box-shadow: 0 0 5px #0187A0, 0 0 10px #0187A0;
+
+}
+
+.btn-blue {
+    background-color: #0187A0;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s transform 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: #0187A0;
+    transition: color 0.3s;
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
